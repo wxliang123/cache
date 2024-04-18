@@ -1,0 +1,15 @@
+.vscode
+backup
+build
+end-to-end/backup
+end-to-end/data
+end-to-end/leveldb-1.23/build
+end-to-end/leveldb-1.23/third_party
+end-to-end/rocksdb-7.10.2/build
+end-to-end/rocksdb-7.10.2/third-party
+end-to-end/rocksdb-8.10.2/third-party
+note
+experiments
+third_party
+trace
+twitter

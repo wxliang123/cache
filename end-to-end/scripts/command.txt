@@ -1,0 +1,9 @@
+YCSB/build/ycsb -db rocksdb -threads 16 -cache_type lru_cache -cache_size 10 -phase load -P /home/wxl/Projects/KVCache/cache/end-to-end/YCSB/workloads/workloadb.spec
+
+YCSB/build/ycsb -db rocksdb -threads 16 -cache_type segment_cache -cache_size 10 -phase run -P /home/wxl/Projects/KVCache/cache/end-to-end/YCSB/workloads/workloadc.spec
+
+valgrind --leak-check=yes myprog arg1 arg2
+
+echo 3 > /proc/sys/vm/drop_caches
+
+swapoff -a
